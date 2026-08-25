@@ -1,4 +1,13 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const mobileBtn = document.querySelector(".mobile-menu");
+  const navMenu = document.querySelector(".desktop-nav");
 
+  if (mobileBtn && navMenu) {
+    mobileBtn.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+  }
+});
 const year = document.querySelectorAll(".year");
 year.forEach(x=>x.textContent=new Date().getFullYear());
 

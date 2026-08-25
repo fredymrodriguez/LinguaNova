@@ -21,16 +21,16 @@ document.querySelectorAll(".prototype-form").forEach(form=>{
 });
 
 const bot = {
-  welcome:"Hello. I’m the LinguaNova website assistant. I can help you understand our solutions, identify the right area of expertise, or prepare for a consultation. What are you working on?",
-  language:"LinguaNova’s Language Services include professional translation, interpretation, academic editing, proofreading, localization, healthcare communication, and immigration-documentation support. Tell me the type of document or communication challenge and I’ll help route it.",
-  ai:"LinguaNova develops human-centered AI and knowledge solutions, including AI workflow design, multilingual AI assistants, CrewAI organizational solutions, intelligent document processing, knowledge management, and AI consulting. AI is intended to augment professional expertise, not replace it.",
-  research:"Research & Academic Solutions include research consulting, literature reviews, grant development, program evaluation, academic writing support, and specialized linguistic analysis.",
-  education:"Education & Learning Solutions include curriculum development, teacher professional development, AI for education, language learning, educational technology, and Mini-Ticha.",
-  publishing:"LinguaNova Publishing includes bilingual children’s literature, educational publications, digital learning resources, open educational resources, and the Medical Spanish Dictionary.",
-  impact:"LinguaNova’s social-impact model connects commercial success with educational access, language preservation, open knowledge resources, and community partnerships. Mini-Ticha is the flagship Indigenous-language initiative described in the Master Plan.",
-  consult:"To prepare for a consultation, briefly describe: 1) your organization or role, 2) the problem you need to solve, 3) the desired outcome, 4) relevant timeline, and 5) whether language, education, research, AI, publishing, or several areas are involved.",
-  privacy:"Please do not paste confidential, medical, financial, legal, immigration, or identity documents into this prototype chat. A production version should provide secure document exchange and clear privacy controls.",
-  default:"I can guide you through Language Services, AI & Knowledge Solutions, Research, Education, Publishing, Social Impact, or consultation intake. Describe the challenge in one or two sentences."
+  welcome: "Hello. I’m the LinguaNova website assistant. I can help you understand our solutions, identify the right area of expertise, or prepare for a consultation. What are you working on?",
+  language: "LinguaNova’s Language Services include professional translation, interpretation, academic editing, proofreading, localization, healthcare communication, and immigration-documentation support. Tell me the type of document or communication challenge and I’ll help route it.",
+  ai: "LinguaNova develops human-centered AI and knowledge solutions, including AI workflow design, multilingual AI assistants, CrewAI organizational solutions, intelligent document processing, knowledge management, and AI consulting. AI is intended to augment professional expertise, not replace it.",
+  research: "Research & Academic Solutions include research consulting, literature reviews, grant development, program evaluation, academic writing support, and specialized linguistic analysis.",
+  education: "Education & Learning Solutions include curriculum development, teacher professional development, AI for education, language learning, educational technology, and Mini-Ticha.",
+  publishing: "LinguaNova Publishing includes bilingual children’s literature, educational publications, digital learning resources, open educational resources, and the Medical Spanish Dictionary.",
+  impact: "LinguaNova’s social-impact model connects commercial success with educational access, language preservation, open knowledge resources, and community partnerships. Mini-Ticha is our flagship Indigenous-language initiative.",
+  consult: "To prepare for a consultation, briefly describe: 1) your organization or role, 2) the problem you need to solve, 3) the desired outcome, 4) relevant timeline, and 5) whether language, education, research, AI, publishing, or several areas are involved.",
+  privacy: "Please do not paste confidential, medical, financial, legal, immigration, or identity documents into this chat. If needed, we will provide a secure document exchange link during your consultation.",
+  default: "I can guide you through Language Services, AI & Knowledge Solutions, Research, Education, Publishing, Social Impact, or consultation intake. Describe the challenge in one or two sentences."
 };
 function classify(t){
  t=t.toLowerCase();

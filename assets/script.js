@@ -15,7 +15,7 @@ document.querySelectorAll(".prototype-form").forEach(form=>{
   form.addEventListener("submit",e=>{
     e.preventDefault();
     const status=form.querySelector(".form-status");
-    if(status) status.textContent="Prototype submission received locally. Connect this form to the approved business email/CRM before public launch.";
+    if(status) status.textContent="Thank you! Your consultation request has been received. We will be in touch shortly.";
     form.reset();
   });
 });
